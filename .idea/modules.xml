@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/exec00/exec00.iml" filepath="$PROJECT_DIR$/exec00/exec00.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exec01/exec01.iml" filepath="$PROJECT_DIR$/exec01/exec01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rust_exec.iml" filepath="$PROJECT_DIR$/rust_exec.iml" />
+    </modules>
+  </component>
+</project>
