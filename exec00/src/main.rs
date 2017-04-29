@@ -32,21 +32,22 @@ fn main() {
             Err(_) => {
                 println! ("> Wrong Format, Ignored");
                 continue;
-            },
+            }
         };
 
-        //---- u32 compare
+        //---- u32 compare method #1
         {
             if guessed_no < sec_no {
                 println!("> Smaller");
             } else if guessed_no.eq(&sec_no) {
+            //} else if guessed_no == sec_no {
                 println!("> Match!");
             } else if guessed_no > sec_no {
                 println!("> Bigger");
             }
         }
 
-        //---- u32 compare
+        //---- u32 compare method #2
         match guessed_no.cmp(&sec_no) {
             Ordering::Less => println!("> Smaller"),
             Ordering::Greater => println!("> Bigger"),
