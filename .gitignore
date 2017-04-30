@@ -1,4 +1,4 @@
 target
 *.iml
 *.lock
-.idea/
+idea/
