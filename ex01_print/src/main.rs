@@ -23,13 +23,14 @@ fn main() {
     // With Named Arguments
     println!("{entity} of {element} : {element} {value}", value="red", element="rose", entity="color");
 
-    println!("Binary Value of {0} = {0:b}", 255 );
-    println!("Hex Value of {0} = {0:X}", 255 );
-    println!("Octet Value of {0} = {0:o}", 255 );
+    //
+    let nval:i32 = 255;
+    println!("Binary Value of {0} = {0:b}", nval);
+    println!("Hex Value of {0} = {0:X}", nval);
+    println!("Octet Value of {0} = {0:o}", nval);
 
-    println!("Right-Aligned Text |{0:>8}|", 255 );
-    println!("Right-Aligned Text |{0:>08}|", 255 );
-
+    println!("Right-Aligned Text |{0:>8}|", nval);
+    println!("Right-Aligned Text |{0:>08}|", nval);
 
     // ---- Test Display for Point2D
     for pt in [
