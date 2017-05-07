@@ -13,6 +13,12 @@ impl Display for Point2D {
     }
 }
 
+fn print_slice(slice: &[i32]) {
+    for num in slice.iter() {
+        println!("- {}", num);
+    }
+}
+
 fn main() {
     // ---- Test Basic Formatting
     println!("Version: {}", 1.7);
@@ -39,4 +45,8 @@ fn main() {
     ].iter() {
         println!("> {}", *pt);
     }
+
+    // ---- Print Array(Slice)
+    let a_n: [i32;5] = [10, 20, 30, 40, 50];
+    print_slice(&a_n[2..5]);
 }
