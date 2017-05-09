@@ -5,6 +5,8 @@ struct Point2D {
     y: f32
 }
 
+struct Point2D_noname (f32, f32);
+
 impl Display for Point2D {
     fn fmt(&self, fmt: &mut Formatter) -> fmt::Result {
         let ew = if self.x >= 0.0 {'E'} else {'W'};
