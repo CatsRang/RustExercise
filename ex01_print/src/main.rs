@@ -35,8 +35,8 @@ fn main() {
     println!("Hex Value of {0} = {0:X}", nval);
     println!("Octet Value of {0} = {0:o}", nval);
 
-    println!("Right-Aligned Text |{0:>8}|", nval);
     println!("Right-Aligned Text |{0:>08}|", nval);
+    println!("Left-Aligned Text |{0:<8}|", nval);
 
     // ---- Test Display for Point2D
     for pt in [
