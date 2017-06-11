@@ -1,26 +1,26 @@
-
+// ---- main
 fn main() {
     let nval: u32 = 0u32;
     let bool_val: bool = true;
-    let unit:() = (); // unit type
+    let unit: () = (); // unit type
 
     println!("{}, {}, {:?}", nval, bool_val, unit);
 
     // unused variable without warning
-    let _unused_var : f64 = 0.0;
+    let _unused_var: f64 = 0.0;
 
     // unused variable that emits warning
-    let val : f64 = 3.14;
+    let val: f64 = 3.14;
     {
         let _block_var = 30;
 
         // variable shadowing
-        let val : i32 = -100;
+        let val: i32 = -100;
         println!("interval Var: {:?}", val);
     }
 
     // variable shadowing
-    let val : bool = true;
+    let val: bool = true;
     println!("interval Var: {:?}", val);
 
     // ------------------------ Casting
@@ -37,6 +37,6 @@ fn main() {
     type Int = i32;
     type Double = f64;
 
-    let _val: int = 63;
-    let _val: double = 63.00;
+    let _val: Int = 63;
+    let _val: Double = 63.00;
 }

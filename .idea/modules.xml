@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/exec00/exec00.iml" filepath="$PROJECT_DIR$/exec00/exec00.iml" />
-      <module fileurl="file://$PROJECT_DIR$/exec01/exec01.iml" filepath="$PROJECT_DIR$/exec01/exec01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ex00_guessinggame/ex00_guessinggame.iml" filepath="$PROJECT_DIR$/ex00_guessinggame/ex00_guessinggame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ex01_print/ex01_print.iml" filepath="$PROJECT_DIR$/ex01_print/ex01_print.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ex02_collatz/ex02_collatz.iml" filepath="$PROJECT_DIR$/ex02_collatz/ex02_collatz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ex03_closure/ex03_closure.iml" filepath="$PROJECT_DIR$/ex03_closure/ex03_closure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ex04_varbind/ex04_varbind.iml" filepath="$PROJECT_DIR$/ex04_varbind/ex04_varbind.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ex05_flowcontrol/ex05_flowcontrol.iml" filepath="$PROJECT_DIR$/ex05_flowcontrol/ex05_flowcontrol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ex06_destructuring/ex06_destructuring.iml" filepath="$PROJECT_DIR$/ex06_destructuring/ex06_destructuring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nickel01/nickel01.iml" filepath="$PROJECT_DIR$/nickel01/nickel01.iml" />
       <module fileurl="file://$PROJECT_DIR$/rust_exec.iml" filepath="$PROJECT_DIR$/rust_exec.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wsrs01/wsrs01.iml" filepath="$PROJECT_DIR$/wsrs01/wsrs01.iml" />
     </modules>
   </component>
 </project>
