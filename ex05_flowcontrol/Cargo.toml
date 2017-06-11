@@ -1,0 +1,6 @@
+[package]
+name = "ex05_flowcontrol"
+version = "0.1.0"
+authors = ["hwlee2k <bless2k@gmail.com>"]
+
+[dependencies]
